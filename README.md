@@ -23,7 +23,7 @@ npm i @tldraw/svg
 This library exports several functions that can be used to create SVG path data.
 
 ```tsx
-import { moveTo, lineTo, bezierTo } from "@tldraw/vec"
+import { moveTo, lineTo, bezierTo } from "@tldraw/svg"
 
 const pathData = [
   moveTo([5, 5]),
